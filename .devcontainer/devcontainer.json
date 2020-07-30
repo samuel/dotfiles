@@ -4,5 +4,8 @@
     "extensions": [
         "golang.Go",
         "ms-python.python"
-    ]
+    ],
+    "settings": {
+        "workbench.colorTheme": "Default Dark+"
+    }
 }
