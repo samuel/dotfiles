@@ -9,6 +9,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install git \
 # Install Go
 RUN cd /usr/local && \
 	rm -rf go && \
-	curl -s https://golang.org/dl/go1.15rc1.linux-amd64.tar.gz | tar -zxf - && \
+	curl -s https://dl.google.com/go/go1.15rc1.linux-amd64.tar.gz | tar -zxf - && \
 	ln -s /usr/local/go/bin/go /usr/local/bin/go
 
