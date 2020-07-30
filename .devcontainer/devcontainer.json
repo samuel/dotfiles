@@ -1,0 +1,8 @@
+{
+    "name": "Default",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "golang.Go",
+        "ms-python.python"
+    ]
+}
